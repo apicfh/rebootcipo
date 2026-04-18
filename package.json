@@ -1,0 +1,17 @@
+{
+  "name": "rebootcipo",
+  "version": "1.0.0",
+  "description": "Club Family Hotel - RMS Project",
+  "private": true,
+  "scripts": {
+    "extract": "node extract-project.mjs",
+    "dev": "npm run extract && next dev",
+    "build": "npm run extract && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

@@ -1,0 +1,323 @@
+/* Palette di colori per Club Family Hotel */
+
+/* Palette 1: Minimal */
+body.palette-1 {
+  --primary: 0 0% 0%; /* Nero */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 45%; /* Grigio medio */
+  --secondary-foreground: 0 0% 100%;
+  --accent: 0 0% 25%; /* Grigio scuro */
+  --accent-foreground: 0 0% 100%;
+  --background: 0 0% 100%; /* Bianco */
+  --foreground: 0 0% 0%; /* Nero */
+  --card: 0 0% 100%; /* Bianco */
+  --card-foreground: 0 0% 0%; /* Nero */
+  --border: 0 0% 85%; /* Grigio chiaro */
+  --input: 0 0% 85%; /* Grigio chiaro */
+  --ring: 0 0% 0%; /* Nero */
+  --muted: 0 0% 96%; /* Grigio molto chiaro */
+  --muted-foreground: 0 0% 45%; /* Grigio medio */
+  --destructive: 0 84.2% 60.2%; /* Rosso standard per errori */
+  --destructive-foreground: 0 0% 100%;
+}
+
+/* Palette 2: Rosso */
+body.palette-2 {
+  --primary: 0 85% 45%; /* Rosso medio */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 75% 60%; /* Rosso più chiaro */
+  --secondary-foreground: 0 0% 100%;
+  --accent: 0 90% 35%; /* Rosso più scuro */
+  --accent-foreground: 0 0% 100%;
+  --background: 0 100% 98%; /* Bianco leggermente rosato */
+  --foreground: 0 85% 25%; /* Rosso molto scuro per testo */
+  --card: 0 0% 100%;
+  --card-foreground: 0 85% 25%; /* Rosso molto scuro */
+  --border: 0 70% 85%; /* Rosa chiaro */
+  --input: 0 70% 85%; /* Rosa chiaro */
+  --ring: 0 85% 45%; /* Rosso medio */
+  --muted: 0 30% 96%; /* Rosa molto chiaro */
+  --muted-foreground: 0 60% 45%; /* Rosso grigiastro */
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 100%;
+}
+
+/* Palette 3: Viola */
+body.palette-3 {
+  --primary: 270 85% 45%; /* Viola medio */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 280 75% 60%; /* Viola più chiaro */
+  --secondary-foreground: 0 0% 100%;
+  --accent: 260 90% 35%; /* Viola più scuro */
+  --accent-foreground: 0 0% 100%;
+  --background: 270 100% 98%; /* Bianco leggermente violaceo */
+  --foreground: 270 85% 25%; /* Viola molto scuro per testo */
+  --card: 0 0% 100%;
+  --card-foreground: 270 85% 25%; /* Viola molto scuro */
+  --border: 270 70% 85%; /* Lavanda chiaro */
+  --input: 270 70% 85%; /* Lavanda chiaro */
+  --ring: 270 85% 45%; /* Viola medio */
+  --muted: 270 30% 96%; /* Lavanda molto chiaro */
+  --muted-foreground: 270 60% 45%; /* Viola grigiastro */
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 100%;
+}
+
+/* Palette 4: Blu */
+body.palette-4 {
+  --primary: 210 85% 45%; /* Blu medio */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 200 75% 60%; /* Blu più chiaro */
+  --secondary-foreground: 0 0% 100%;
+  --accent: 220 90% 35%; /* Blu più scuro */
+  --accent-foreground: 0 0% 100%;
+  --background: 210 100% 98%; /* Bianco leggermente bluastro */
+  --foreground: 210 85% 25%; /* Blu molto scuro per testo */
+  --card: 0 0% 100%;
+  --card-foreground: 210 85% 25%; /* Blu molto scuro */
+  --border: 210 70% 85%; /* Azzurro chiaro */
+  --input: 210 70% 85%; /* Azzurro chiaro */
+  --ring: 210 85% 45%; /* Blu medio */
+  --muted: 210 30% 96%; /* Azzurro molto chiaro */
+  --muted-foreground: 210 60% 45%; /* Blu grigiastro */
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 100%;
+}
+
+/* Stili per lo sfondo della pagina */
+body.palette-1 {
+  background-color: hsl(0, 0%, 100%); /* Bianco puro */
+}
+
+body.palette-2 {
+  background-color: hsl(0, 100%, 98%); /* Bianco rosato */
+}
+
+body.palette-3 {
+  background-color: hsl(270, 100%, 98%); /* Bianco violaceo */
+}
+
+body.palette-4 {
+  background-color: hsl(210, 100%, 98%); /* Bianco bluastro */
+}
+
+/* Stili aggiuntivi per rendere più evidenti le palette */
+.palette-1 .card,
+.palette-1 button[data-variant="default"],
+.palette-1 .data-table th {
+  border-color: hsl(var(--border));
+}
+
+.palette-2 .card,
+.palette-2 button[data-variant="default"],
+.palette-2 .data-table th {
+  background-color: hsl(0, 100%, 97%);
+  border-color: hsl(0, 70%, 85%);
+}
+
+.palette-2 .bg-muted {
+  background-color: hsl(0, 30%, 96%);
+}
+
+.palette-3 .card,
+.palette-3 button[data-variant="default"],
+.palette-3 .data-table th {
+  background-color: hsl(270, 100%, 97%);
+  border-color: hsl(270, 70%, 85%);
+}
+
+.palette-3 .bg-muted {
+  background-color: hsl(270, 30%, 96%);
+}
+
+.palette-4 .card,
+.palette-4 button[data-variant="default"],
+.palette-4 .data-table th {
+  background-color: hsl(210, 100%, 97%);
+  border-color: hsl(210, 70%, 85%);
+}
+
+.palette-4 .bg-muted {
+  background-color: hsl(210, 30%, 96%);
+}
+
+/* Stili comuni per tutte le palette */
+.border-2 {
+  border-width: 2px;
+}
+
+.shadow-hover:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.card {
+  border-width: 2px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.data-table th {
+  border-width: 2px;
+  border-bottom-width: 2px;
+}
+
+.data-table td {
+  border-width: 1px;
+}
+
+/* Stili per il selettore di palette */
+.palette-selector {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 50;
+  display: flex;
+  gap: 0.5rem;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.palette-option {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.palette-option.active {
+  border-color: black;
+}
+
+/* Stili aggiuntivi per elementi specifici in base alla palette */
+.palette-1 .sidebar {
+  background-color: hsl(0, 0%, 15%); /* Grigio scuro */
+}
+
+.palette-2 .sidebar {
+  background-color: hsl(0, 85%, 45%); /* Rosso */
+}
+
+.palette-3 .sidebar {
+  background-color: hsl(270, 85%, 45%); /* Viola */
+}
+
+.palette-4 .sidebar {
+  background-color: hsl(210, 85%, 45%); /* Blu */
+}
+
+/* Stili per i titoli delle pagine */
+.palette-1 h1,
+.palette-1 h2 {
+  color: hsl(0, 0%, 0%);
+}
+
+.palette-2 h1,
+.palette-2 h2 {
+  color: hsl(0, 85%, 25%);
+}
+
+.palette-3 h1,
+.palette-3 h2 {
+  color: hsl(270, 85%, 25%);
+}
+
+.palette-4 h1,
+.palette-4 h2 {
+  color: hsl(210, 85%, 25%);
+}
+
+/* Stili per i bottoni primari */
+.palette-1 .btn-primary {
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+}
+
+.palette-2 .btn-primary {
+  background-color: hsl(0, 85%, 45%);
+  color: white;
+}
+
+.palette-3 .btn-primary {
+  background-color: hsl(270, 85%, 45%);
+  color: white;
+}
+
+.palette-4 .btn-primary {
+  background-color: hsl(210, 85%, 45%);
+  color: white;
+}
+
+/* Stili per i contenitori principali */
+.palette-1 main {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.palette-2 main {
+  background-color: hsl(0, 100%, 98%);
+}
+
+.palette-3 main {
+  background-color: hsl(270, 100%, 98%);
+}
+
+.palette-4 main {
+  background-color: hsl(210, 100%, 98%);
+}
+
+/* Stili per i form e input */
+.palette-1 input,
+.palette-1 select,
+.palette-1 textarea {
+  border-color: hsl(0, 0%, 85%);
+}
+
+.palette-2 input,
+.palette-2 select,
+.palette-2 textarea {
+  border-color: hsl(0, 70%, 85%);
+}
+
+.palette-3 input,
+.palette-3 select,
+.palette-3 textarea {
+  border-color: hsl(270, 70%, 85%);
+}
+
+.palette-4 input,
+.palette-4 select,
+.palette-4 textarea {
+  border-color: hsl(210, 70%, 85%);
+}
+
+/* Stili per evitare sovrapposizioni nei controlli */
+.controls-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.controls-container > * {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .controls-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .controls-container > * {
+    width: 100%;
+    margin-right: 0;
+  }
+}

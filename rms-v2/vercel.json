@@ -1,0 +1,48 @@
+{
+  "crons": [
+    {
+      "path": "/api/import-tripadvisor-hotel?hotel_id=175793b6-5952-4612-b311-eeed8e81f6ab&hotel_code=MIVI",
+      "schedule": "0 6,14,22 * * *"
+    },
+    {
+      "path": "/api/import-tripadvisor-hotel?hotel_id=3e5b0cad-c9e4-498d-b7d3-42f897606b33&hotel_code=MICHE",
+      "schedule": "20 6,14,22 * * *"
+    },
+    {
+      "path": "/api/import-tripadvisor-hotel?hotel_id=5e6fee95-48c6-40a7-af3f-8b5d3065c8c6&hotel_code=TINTO",
+      "schedule": "40 6,14,22 * * *"
+    },
+    {
+      "path": "/api/import-tripadvisor-hotel?hotel_id=657a94ab-ed25-48a0-bea9-ad2c9f6f4319&hotel_code=COSTA",
+      "schedule": "0 7,15,23 * * *"
+    },
+    {
+      "path": "/api/import-tripadvisor-hotel?hotel_id=7b0840be-fe15-43b5-9269-a02ae0c8b1bc&hotel_code=SERE",
+      "schedule": "20 7,15,23 * * *"
+    },
+    {
+      "path": "/api/import-tripadvisor-hotel?hotel_id=86941a24-f964-4e64-98a3-7e2f2f91b7b3&hotel_code=BEST",
+      "schedule": "40 7,15,23 * * *"
+    },
+    {
+      "path": "/api/import-tripadvisor-hotel?hotel_id=8e15c216-36d7-471f-b3fe-308cdcff26db&hotel_code=RICCIONE",
+      "schedule": "0 8,16,0 * * *"
+    },
+    {
+      "path": "/api/import-tripadvisor-hotel?hotel_id=adbaa6af-36a2-45bc-812d-42dfdcfe0873&hotel_code=MIMA",
+      "schedule": "20 8,16,0 * * *"
+    },
+    {
+      "path": "/api/import-tripadvisor-hotel?hotel_id=d875730e-4744-45da-ab1b-2d2c32f9444b&hotel_code=TOSI",
+      "schedule": "40 8,16,0 * * *"
+    },
+    {
+      "path": "/api/import-tripadvisor-hotel?hotel_id=de0c9e23-816e-4a9d-977f-a6b9246f7bf9&hotel_code=RIVI",
+      "schedule": "0 9,17,1 * * *"
+    },
+    {
+      "path": "/api/import-tripadvisor-hotel?hotel_id=ed23f0f6-6521-40b1-b71b-5c03f9efaf1e&hotel_code=CERVIA",
+      "schedule": "20 9,17,1 * * *"
+    }
+  ]
+}
